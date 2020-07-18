@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*------ Shaun Inman's Global CSS Reset-------*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, 
+form, fieldset, input, p, blockquote, table, th, td, embed, object {
+	padding: 0;
+	margin: 0; 
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+fieldset, img, abbr {
+	border: 0;
+	}
+address, caption, cite, code, dfn, em, 
+h1, h2, h3, h4, h5, h6{
+	font-weight: 400; font-style: normal; margin-bottom:10px;}
+h3{ font-size:2em;}
+h4{ font-size:1.8em;}
+p{ font-size:1.3em; margin-bottom:10px; color:#4d4d4d; line-height:20px;}
+	
+ul {	list-style: none; 	} 
+caption, th {
+	text-align: left;
+	}
+
+q:before, q:after {
+	content: '';
+	}
+a, ins {
+	text-decoration: none;
+	}
+	a:hover{ text-decoration:none;}
+	a[href^="tel"] { color:#6c6c6c;}
+
+@font-face {
+    	font-family: 'helveticaregular';
+    	src: url('../fonts/helvetica_regular-webfont.eot');
+    	src: url('../fonts/helvetica_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helvetica_regular-webfont.woff') format('woff'),
+         url('../fonts/helvetica_regular-webfont.ttf') format('truetype'),
+         url('../fonts/helvetica_regular-webfont.svg#helveticaregular') format('svg');}
+@font-face {
+    	font-family: 'helveticabold';
+    	src: url('../fonts/helvetica_bold-webfont.eot');
+    	src: url('../fonts/helvetica_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helvetica_bold-webfont.woff') format('woff'),
+         url('../fonts/helvetica_bold-webfont.ttf') format('truetype'),
+         url('../fonts/helvetica_bold-webfont.svg#helveticabold') format('svg');
+		 }
+		 
+		 
+		 
+.clearfix:before,
+.clearfix:after {
+  content: ".";    
+  display: block;    
+  height: 0;    
+  overflow: hidden;	
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;} /* IE < 8 */
+
+
+.simpleclearfix {
+		o\verflow: auto;
+		}
+	* html .simpleclearfix {
+		height: 1%; /* IE5-6 */
+   		}
+		
+/*
+
+	Supersized - Fullscreen Slideshow jQuery Plugin
+	Version : Core 3.2.1
+	
+	Site	: www.buildinternet.com/project/supersized
+	Author	: Sam Dunn
+	Company : One Mighty Roar (www.onemightyroar.com)
+	License : MIT License / GPL License
+	
+*/
+
+* { margin:0; padding:0; }
+body#login { background:#111; height:100%; }
+#login img{ border:none; }
+#login #supersized-loader { position:absolute; top:50%; left:50%; z-index:0; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em; background:url(../img/progress.gif) no-repeat center center;}
+#login #supersized { position:fixed; left:0; top:0; overflow:hidden; z-index:-999; height:100%; width:100%; }
+#login #supersized img{ width:auto; height:auto; position:relative; outline:none; border:none; }
+#login #supersized a { z-index:-30; position:fixed; overflow:hidden; top:0; left:0; width:100%; height:100%; background:#111; display:block; }
+#login #supersized a.image-loading { background:#111 url(../img/progress.gif) no-repeat center center; width:100%; height:100%; }		
+		

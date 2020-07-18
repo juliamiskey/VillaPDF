@@ -1,0 +1,977 @@
+@charset "utf-8";
+
+
+
+/* CSS Document */
+body{ }
+
+
+#think_sicily_2012 {font-size:62.5%; font-family: 'Calibre', Arial, sans-serif;color:#191919; background:#d6d4d5; }
+#think_sicily_2012 p a, #think_sicily_2012 table td a { color: #b57000; text-decoration: none; }
+#think_sicily_2012 table td a.links, #think_sicily_2012 table td a.btn  {  text-decoration: none; }
+#think_sicily_2012 .wrapper{ width:100%; background:url(../images/bg_shade.png) center top repeat-y; }
+#think_sicily_2012 .main, #think_sicily_2012 .content{ width:1024px; margin:0 auto; clear:both;}
+#think_sicily_2012 .think ul li, #think_sicily_2012 .menubar ul li a, #think_sicily_2012 .think ul li,#think_sicily_2012 .thinksicily, #think_sicily_2012 .thinkpuglia, #think_sicily_2012 .thinksicily_explore, #think_sicily_2012 .thinkpuglia_explore, #think_sicily_2012 .repeat, #think_sicily_2012 .sbHolder, #think_sicily_2012 .links{ behavior: url(PIE.htc); position:relative; z-index: 0;}
+#think_sicily_2012 h3 { position: relative; }
+/*=============== Header starts here =================*/
+#think_sicily_2012 .pre_header_bar { width:100%; position:absolute; left:0; top:0; height:33px;
+background:#3c3e42; display:block;
+}
+#think_sicily_2012 .header{ width:1024px; margin:0px auto; padding-top:7px; overflow:hidden;}
+#think_sicily_2012 .header ul li{ font-size:1.5em; line-height:18px; float:left; }
+#think_sicily_2012 .header .color-strips { position: absolute; right: 0; top: 0; z-index: 1; }
+#think_sicily_2012 .header .color-strips .blue { display: inline-block; width: 7px; height: 105px; background: #11b8d8; margin:0; padding: 0; float: right; }
+#think_sicily_2012 .header .color-strips .green { display: inline-block; width: 7px; height: 105px; background: #8a9b21; margin:0; padding: 0; float: right; }
+#think_sicily_2012 .header .wine-promo{ background: url(../images/header-wine.png) no-repeat; width: 274px; height: 94px; position: absolute; right: 0; top: 11px; z-index: 10;}
+#think_sicily_2012 .header .wine-promo span {  font-family: 'MinionPro-Regular', 'Georgia' ; color: white; font-size: 13px; padding:47px 80px 0 70px;  }
+	
+#think_sicily_2012 .curve-left, #think_sicily_2012 .curve-right { display: none; }
+#think_sicily_2012 .repeat p { font-family: arial;  }
+#think_sicily_2012 .think{ overflow:hidden; margin-left:40px;}
+#think_sicily_2012 .think ul li{ float:left; margin-right:1px; background:#8a9b21; border-radius:5px 5px 0px 0px;}
+#think_sicily_2012 .think ul li a{padding:4px 14px; float:left;  color:#FFF;}
+#think_sicily_2012 .think_menu ul li:hover{ background:#9db121;}
+#think_sicily_2012 .think .thinksicily{ background:#11b8d8; }
+#think_sicily_2012 .think .thinksicily:hover{ background:#14caed;  }
+#think_sicily_2012 .think .thinkio{ background:#5fc5cb; }
+#think_sicily_2012 .think .thinkio:hover{ background:#81ced3;  }
+#think_sicily_2012 .think_menu{ float:left;}
+#think_sicily_2012 .secure{ float:right; margin-right:50px;}
+#think_sicily_2012 .secure ul li { font-family:Arial, Helvetica, sans-serif; font-size:1.4em; margin:0px; color:#6c6c6c; background:#f0f0f1;  }
+#think_sicily_2012 .secure ul li a{ color:#6c6c6c; padding-right:35px; display:block; }
+#think_sicily_2012 .secure ul li a:hover{ color:#333333;}
+#think_sicily_2012 .secure ul li.lock{ background:url(../images/secure_client.png) right top no-repeat #f0f0f1; }
+#think_sicily_2012 .color{ background:#f0f0f1; padding-top:50px; padding-bottom:10px; display:table; position: relative; }
+#think_sicily_2012 h1{ font-family: 'MinionPro-Regular', 'Georgia' ; font-size:3.0em; line-height:36px; color:#373737; float:left; margin-right:26px; margin-top:5px; }
+.color span{ color:#6c6c6c; font-size:1.5em; margin-top:5px; display:inline-block; font-family:Arial, Helvetica, sans-serif;}
+#think_sicily_2012 .color span span{ font-size:1.2em; color:#6C6C6C;}
+
+#think_sicily_2012 .menutop{ background: #FFF url(../images/shadow.png) left top repeat-x; width:100%; display:table;}
+#think_sicily_2012 .menubar{ width:1024px; margin:0 auto; overflow:hidden;}
+#think_sicily_2012 .menubar ul li{  font-family:Arial, Helvetica, sans-serif; position: relative;   margin-right:1px; float:left;}
+#think_sicily_2012 .menubar ul li a{ display:block; color:#f0f0f1; padding:0px 15px; border-bottom-left-radius:5px;  border-bottom-right-radius:5px; height:28px; line-height:28px; background:url(../images/menu-li-a-bg.png) left top repeat-x;}
+#think_sicily_2012 .menubar ul li a span.menu-item{ background:url(../images/arrow.png) right center no-repeat; padding-right:30px;}
+#think_sicily_2012 .menubar ul li a:hover{ background: #f3f3f3; color:#373737; box-shadow: #d4d4d4 -2px 3px 5px;}
+#think_sicily_2012 .menubar ul li a.active{ background: #f3f3f3; color:#373737; box-shadow: #d4d4d4 -2px 3px 5px;}
+
+
+#think_sicily_2012 .menu{ float:left; margin-left:40px; padding-bottom:10px;}
+
+
+#think_sicily_2012 .mr-left-40{ margin-left:40px;}
+#think_sicily_2012 .extra{ float:left; margin-left:125px;}
+#think_sicily_2012 .extra li { float:left;}
+#think_sicily_2012 .extra li a{ background:url(../images/extra-li-bg.png) left top repeat-x !important; height:28px; line-height:28px; display:block; padding:0px 15px;}
+#think_sicily_2012 .extra li a:hover{ background:#333333 !important; color:#ffffff !important;}
+#think_sicily_2012 ul.breadcum{ float:left; margin-left:50px; margin-bottom:3px;}
+#think_sicily_2012 ul.breadcum li{ color:#9d9fa2; font-size:1.2em !important; margin-right:10px;}
+#think_sicily_2012 ul.breadcum li a{ color:#9d9fa2; font-family:Arial, Helvetica, sans-serif; }
+/*=============== Header ends here =================*/
+
+
+/*=============== Footer css=================*/
+#think_sicily_2012 #footer{ width:100%; float:left; 
+background:url(../images/bg_shade.png) center top repeat-y #d6d4d5; padding-top: 100px;
+}
+#think_sicily_2012 .main-footer{ width:958px;  margin: 0px auto; position:relative; background:url(../images/footer-bg.jpg) left top repeat-x #939598; min-height:400px; padding-top:34px; padding-left:66px; padding-bottom:15px; }
+#think_sicily_2012 .newsletter{ width:279px; height:65px; background:url(../images/newsletter-bg.png) left top no-repeat; position:absolute; right:0px; top:-48px; padding-left:130px; padding-top:15px; border:none; }
+#think_sicily_2012 .newsletter h3{ font-size:1.6em; color:#ffffff; font-style:italic;}
+#think_sicily_2012 .newsletter-box{ width:220px; height:31px; background:url(../images/news-bg.gif) left top repeat-x;}
+#think_sicily_2012 .newsletter input[type="text"]{ padding:0px 5px; width:185px; float:left; margin:0px; font-family: 'helveticaregular'; font-weight:normal; font-size:1.3em;}
+#think_sicily_2012 .send{ width:25px; height:25px; background:url(../images/send.gif) left top no-repeat; float:left; border:none; cursor:pointer;}
+#think_sicily_2012 .send:hover{ background-position:left bottom;}
+#think_sicily_2012 .wd-220{ width:206px; background: url(../images/border-bg.gif) left top no-repeat; float:left; min-height:260px; padding-left:14px; padding-top:20px; margin-top:20px;}
+#think_sicily_2012 .wd-220 h3{ font-size:1.4em; color:#ffffff; font-family: 'helveticabold'; margin-bottom:5px;}
+#think_sicily_2012 .wd-220 ul{ float:left; margin-bottom:15px; width:100%;}
+#think_sicily_2012 .wd-220 ul li{ display:block;}
+#think_sicily_2012 .wd-220 ul li a{ display:block; line-height:1.3em;}
+#think_sicily_2012 .wd-220 ul li a:hover{ text-decoration:underline;}
+#think_sicily_2012 .address{ width:190px; float: right; margin-right:60px; background:url(../images/address-bg.gif) left top repeat-x #52555a; padding:40px 10px 15px 20px; min-height:360px;}
+#think_sicily_2012 .address a[href^="tel"] { color:#ffffff !important; }
+#think_sicily_2012 .address h3{ color:#e9af00; font-size:1.4em; font-family:Arial, Helvetica, sans-serif; font-weight:bold;}
+#think_sicily_2012 .main-footer p, .wd-220 ul li a{ color:#ffffff; font-size:1.1em; font-family: 'helveticaregular'; line-height:17px;}
+#think_sicily_2012 .footer-btm{ width:660px; float:left; min-height:50px;}
+#think_sicily_2012 .footer-btm img{ float:right; margin-top:44px; margin-right:40px; }
+#think_sicily_2012 .footer-btm p{ margin-top:70px;}
+
+#think_sicily_2012 .external-urls { margin-top: 40px; }
+#think_sicily_2012 .external-urls a{ text-decoration: none; font-size: 12px; font-weight: bold;  }
+#think_sicily_2012 .external-urls a:hover {  text-decoration: underline; }
+/*=============== end of footer css=================*/
+
+
+/****** Banner Starts here ******/
+#think_sicily_2012 .banner{ width:1024px; margin:0 auto; height:400px; position:relative;}
+#think_sicily_2012 .banner_left{ float:left; width:335px; position:absolute; z-index:9999; left:50px; top:25px;}
+#think_sicily_2012 .banner_left h2{ color:#fff; font-size:3.0em; line-height:36px; margin-top:15px;}
+#think_sicily_2012 .banner_left p{font-size:1.4em; line-height:24px; color:#FFF;}
+#think_sicily_2012 .banner_left a{line-height:24px; color:#FFF; text-decoration:underline;}
+#think_sicily_2012 .banner_left a:hover{ text-decoration:none;}
+#think_sicily_2012 .banner_right{ width:214px; height:364px; position:absolute; right:40px; top:0px; z-index:999; background:url(../images/transparent-bg.png) left top repeat; padding:18px 3px;}
+#think_sicily_2012 .login{ border-bottom:1px solid #a0aab3; padding-bottom:8px; }
+#think_sicily_2012 .login strong{ width:155px; font-size:1.5em; font-style:normal; line-height:19px; padding-left:10px; padding-right:45px; color:#e9af00; display:block; background:url(../images/secure.png) right 15px no-repeat; font-weight:normal; }
+#think_sicily_2012 .banner_right form{ width:205px; padding:0px 6px; margin-top:18px;}
+#think_sicily_2012 label{ display:block; font-size:1.4em; color:#FFF; line-height:16px;}
+#think_sicily_2012 label a{ color:#e9af00; text-decoration:underline; font-family:Arial, Helvetica, sans-serif; font-size:0.9em;}
+#think_sicily_2012 input[type="text"]{ display:block; width:200px; height:25px; background:#FFF; border:none; margin-top:5px; margin-bottom:10px; padding-left:2px; font-size:1.2em; }
+#think_sicily_2012 input[type="password"]{ display:block; width:200px; height:25px; background:#FFF; border:none; margin-top:5px; margin-bottom:10px; padding-left:2px; font-size:1.2em; }
+#think_sicily_2012 input[type="submit"]{ background:url(../images/login.png) left top no-repeat; border:none; width:210px; height:28px; text-align:left; line-height:28px; margin-top:15px; color:#FFF; cursor:pointer; padding:0px 5px; font-size:1.4em; font-family:Arial, Helvetica, sans-serif; font-weight:bold;}
+#think_sicily_2012 input[type="submit"]:hover{ background-position:left bottom;}
+
+#think_sicily_2012 .paging{ text-align:center; width:225px; margin-top:105px;}
+#think_sicily_2012 .paging span{ color:#FFF; font-size:1.4em; font-style:italic;}
+#think_sicily_2012 .paging ul{ margin-left:60px; margin-top:7px;}
+#think_sicily_2012 .paging ul li { float:left;  margin-right:16px;}
+#think_sicily_2012 .paging ul li a{ background:url(../images/paging.png) left top no-repeat; width:7px; height:7px; display:block; }
+#think_sicily_2012 .paging ul li a:hover{   background:url(../images/paging.png) left bottom no-repeat; width:7px; height:7px; }
+
+
+
+/*=====================slider-css===============================*/
+#think_sicily_2012 #slider, #think_sicily_2012 #items > div, #think_sicily_2012 #items > div{height:400px; width:1024px;}
+#think_sicily_2012 #slider{width: 100%;overflow: hidden;position:relative;	height:400px;}
+#think_sicily_2012 #items{	width: 2000em;position: absolute;} 
+#think_sicily_2012 #items > li, #items > div{float: left;overflow: visible; width:1024px !important;}
+#think_sicily_2012 #slide-1{background-color:black;}
+#think_sicily_2012 #items > div > div{	width: 1580px;}
+#think_sicily_2012 .left, #think_sicily_2012 .right{margin-top:10px;}
+#think_sicily_2012 .left, #navigation li{float:left;}
+#think_sicily_2012 .right{float:right;}
+#think_sicily_2012 #navigation-wrapper,#navigation{margin:0 auto;}
+#think_sicily_2012 #navigation-wrapper{clear:both;width:220px; position:absolute; height:50px; right:40px; top:320px; z-index:9999; }
+#think_sicily_2012 #navigation-wrapper span{ width:100%; text-align:center; float:left; font-size:1.4em; color:#ffffff; font-style:italic; margin-bottom:15px;}
+#think_sicily_2012 #navigation{ float:left; margin-left:50px; display:block;}
+#think_sicily_2012 #navigation li{float:left;  margin-right:16px; background:url(../images/paging.png) left top no-repeat; width:7px; height:7px; display:block;}
+#think_sicily_2012 #navigation li:hover, .left:hover, .right:hover{cursor:pointer;}
+#think_sicily_2012 #navigation li:hover{background:url(../images/paging.png) left bottom no-repeat;}
+#think_sicily_2012 #navigation li.active{background:url(../images/paging.png) left bottom no-repeat;}
+#think_sicily_2012 .disabled{display:none;}
+#think_sicily_2012 .prev, #think_sicily_2012 .next { display:none;}
+/*=====================/slider-css===============================*/
+/****** Banner Ends here ******/
+
+
+
+/****** contents left css ******/
+#think_sicily_2012 .main-content{ width:744px; float:left; padding-right:20px; position: relative;}
+#think_sicily_2012 .content_left{ float:left; width:704px; margin-left:40px;  margin-top:-57px; position:relative; border-bottom:1px solid #c7c7c7; padding-bottom:5px; min-height:618px;  z-index: 0;}
+#think_sicily_2012 .common{ width:220px; margin-right:20px; float:left;  z-index: 0;  position:relative;}
+#think_sicily_2012 .common img{ display:inline-block;}
+#think_sicily_2012 .none-mr-rt{ margin-right:0px !important;}
+#think_sicily_2012 .thinksicily_explore, #think_sicily_2012 .thinkpuglia_explore, #think_sicily_2012 .thinkio_explore  {width:100%; float:left; border-radius:5px 5px 0px 0px; min-height:160px; padding:25px 0px 0px 0px; text-align:center; margin-bottom:1px;}
+#think_sicily_2012 .thinksicily_explore{ background:#11b8d8;}
+#think_sicily_2012 .thinkpuglia_explore{ background:#8a9b21;}
+#think_sicily_2012 .thinkio_explore{ background:#5fc5cb;}
+
+#think_sicily_2012 .blue{ color:#11b8d8;}
+#think_sicily_2012 .green{ color:#8a9b21;}	
+#think_sicily_2012 .text{ width:200px; padding:13px 10px; background:#f1f1f1; z-index: 0;  position:relative;}
+#think_sicily_2012 .text.alt {  width:210px; padding:13px 0 13px 10px;  }
+#think_sicily_2012 .text.alt p { padding-right: 10px; }
+#think_sicily_2012 .yellow-btn, #think_sicily_2012 .blue-btn, #think_sicily_2012 .green-btn, #think_sicily_2012 .gray-btn, #think_sicily_2012 .red-btn, #think_sicily_2012 .torq-btn, #think_sicily_2012 .dark-gray-btn{ display:block; padding:3px 20px 15px 20px; height:24px; line-height:24px;  text-align: left; font-size:1.4em; font-weight:bold; color:#ffffff; font-family:Arial, Helvetica, sans-serif;}
+#think_sicily_2012 .blue-btn{ background:url(../images/blue-btn.png) left bottom no-repeat; }
+#think_sicily_2012 .green-btn{ background:url(../images/green-btn.png) left bottom no-repeat; }
+#think_sicily_2012 .torq-btn{ background:url(../images/torq-btn.png) left bottom no-repeat; }
+#think_sicily_2012 .gray-btn{ background:url(../images/gray-btn.png) left bottom no-repeat;}
+#think_sicily_2012 .red-btn{ background:url(../images/red-btn.png) left bottom no-repeat;}
+#think_sicily_2012 .yellow-btn{ background:url(../images/yellow-btn.png) left bottom no-repeat; width: 200px;}
+#think_sicily_2012 .dark-gray-btn{ background:url(../images/dark-gray-btn.png) left bottom no-repeat;}
+#think_sicily_2012 .torq-btn:hover, #think_sicily_2012 .yellow-btn:hover, #think_sicily_2012 .blue-btn:hover, #think_sicily_2012 .green-btn:hover, #think_sicily_2012 .gray-btn:hover, #think_sicily_2012 .red-btn:hover, #think_sicily_2012 .dark-gray-btn:hover{ color:#cccccc; background-position:left top;}
+
+#think_sicily_2012 .repeat{ width:100%; /* float:left; */ background: url(../images/repeat-bg.gif) left bottom repeat-x #f3f3f3; border-radius:5px;  position:relative; margin-bottom:20px; padding-bottom:4px;}
+#think_sicily_2012 .repeat h3{ margin-bottom:7px;}
+#think_sicily_2012 .repeat img{ position:absolute; right:0px; bottom:0px; z-index:1;}
+#think_sicily_2012 .brochure-bg{ display:block; padding-top:40px;  position:relative; z-index:5;}
+#think_sicily_2012 .wine-bg{ display:block; padding-top:35px; position:relative; z-index:5;}
+#think_sicily_2012 .wine-bg h3{ color:#911A3B;}
+#think_sicily_2012 #wine img{right:-5px;}
+#think_sicily_2012 .repeat#wine { margin-top: 40px;}
+#think_sicily_2012 .repeat#hirecar { padding-bottom: 11px; }
+#think_sicily_2012 .car-hire{ display:block; padding-top:45px; position:relative; z-index:5;}
+#think_sicily_2012 #hirecar img{ right:0px; top:28px;}
+#think_sicily_2012 .repeat h2{ color:#2d2d2d; font-size:20px; margin-bottom:20px;}
+#think_sicily_2012 .repeat h2 span{ color:#707377;}
+#think_sicily_2012 .repeat h2 , #think_sicily_2012 .repeat h3, #think_sicily_2012 .repeat p{ padding:0px 12px;}
+#think_sicily_2012 .repeat p{ width:130px; margin-bottom:17px;}
+#think_sicily_2012 .link{ display:block; text-decoration:none; color:#323232;}
+#think_sicily_2012 .link:hover { text-decoration:underline; }
+
+#think_sicily_2012 .aside .link{ display:block; text-decoration:underline; color:#323232;}
+
+#think_sicily_2012 .map { width:704px; float: left; min-height:300px; padding-left:40px; position:relative; margin-top:25px; padding-bottom:50px; display: none;}
+#think_sicily_2012 #map-sicily  { display: block; background:#e3f9ff;   }
+#think_sicily_2012 #map-puglia { background:#e4eac6; }
+#think_sicily_2012 #map-ion { background: #edfcfd; }
+#think_sicily_2012 .map-box2 p{ font-size:1.8em; width:45%; float:left; line-height:24px;}
+#think_sicily_2012 #map-sicily .map-box2 p { color: #00c5df; }
+#think_sicily_2012 #map-puglia .map-box2 p { color: #8a9b21; }
+#think_sicily_2012 #map-ion .map-box2 p { color: #5fc5cb; }
+#think_sicily_2012 .map .think{ position:absolute; left:0px; bottom:0px;} 
+#think_sicily_2012 .map .think a{ font-size:1.4em;}
+#think_sicily_2012 #map-panels .map-nav { width:60%; float:left; min-height:50px; position:absolute; left:40px; top:55px; z-index: 100; }
+#think_sicily_2012 #map-panels { position: relative; float :left;  }
+#think_sicily_2012 .blue-bg-color{ background:#11b8d8;}
+#think_sicily_2012 .green-bg-color{ background:#8a9b21;}
+#think_sicily_2012 .torq-bg-color{ background:#5fc5cb;}
+#think_sicily_2012 .gray-bg-color{ background:#898989;}
+#think_sicily_2012 .yellow-bg-color{ background:#e9af00;}
+#think_sicily_2012 .links{ height:25px; line-height:25px; float:left; padding:0px 10px; border-radius:5px; margin-right:15px; color:#ffffff; font-size:1.4em; font-weight:bold; box-shadow: #42484a 0px 6px 8px; font-family:Arial, Helvetica, sans-serif;z-index: 10000; }
+#think_sicily_2012 .links span{ background:url(../images/arrow.png) right center no-repeat; padding-right:65px;}
+#think_sicily_2012 .links:hover{box-shadow: none;}
+#think_sicily_2012 .links.active{box-shadow: none;}
+#think_sicily_2012 .map-nav .torq-bg-color { width: 120px; }
+#think_sicily_2012 .map-nav .torq-bg-color span{ padding-right: 20px; }
+#think_sicily_2012 .map-nav p{ width:100%; clear:both; margin-top:20px; float: left;}
+#think_sicily_2012 .map-box2 { width:97%;  position:absolute; left:40px; bottom:120px; padding-top:15px;}
+
+#think_sicily_2012 .map-box2 p span{ font-style:italic; text-decoration:underline;}
+#think_sicily_2012 .map-box2 ul{ float:right; margin-top:-30px;} 
+#think_sicily_2012 .map-box2 ul li{ float:left;}
+#think_sicily_2012 .map-box2 ul li a{ float:left; width:83px; height:110px; position:relative;}
+#think_sicily_2012 #map-sicily .fly{ background:url(../images/fly-sicily.png) left top no-repeat; z-index:9;}
+#think_sicily_2012 #map-sicily .car{ background:url(../images/car-sicily.png) left top no-repeat; z-index:8; left:-15px;}
+#think_sicily_2012 #map-sicily .light{ background:url(../images/light-sicily.png) left top no-repeat; z-index:7; left:-30px;}
+#think_sicily_2012 #map-sicily .star{ background:url(../images/star-sicily.png) left top no-repeat; z-index:6; left:-45px;}
+#think_sicily_2012 #map-puglia .fly{ background:url(../images/fly-puglia.png) left top no-repeat; z-index:9;}
+#think_sicily_2012 #map-puglia .car{ background:url(../images/car-puglia.png) left top no-repeat; z-index:8; left:-15px;}
+#think_sicily_2012 #map-puglia .light{ background:url(../images/light-puglia.png) left top no-repeat; z-index:7; left:-30px;}
+#think_sicily_2012 #map-puglia .star{ background:url(../images/star-puglia.png) left top no-repeat; z-index:6; left:-45px;}
+#think_sicily_2012 #map-ion .fly{ background:url(../images/fly-ion.png) left top no-repeat; z-index:9;}
+#think_sicily_2012 #map-ion .car{ background:url(../images/car-ion.png) left top no-repeat; z-index:8; left:-15px;}
+#think_sicily_2012 #map-ion .light{ background:url(../images/light-ion.png) left top no-repeat; z-index:7; left:-30px;}
+#think_sicily_2012 #map-ion .star{ background:url(../images/star-ion.png) left top no-repeat; z-index:6; left:-45px;}
+
+/*=============== aside css=================*/
+#think_sicily_2012 .white-bg{ background:#ffffff; overflow:hidden;}
+#think_sicily_2012 .aside{float:right; width:222px; padding-top:35px; padding-right:28px; padding-left:10px;}
+#think_sicily_2012 .quote{font-size:1.7em; color:#11b8d8; background: url(../images/quote-bg.png) left top no-repeat; padding-top:65px; line-height:25px; margin-top:55px; margin-bottom:25px;}
+#think_sicily_2012 .aside h3 {line-height:28px; margin-bottom:5px;}
+/*=============== end of aside css=================*/
+
+
+
+/*=============== extra css by James =================*/
+#think_sicily_2012 .thinksicily_explore .sbHolder { width:197px; margin-left:10px; }
+#think_sicily_2012 .thinksicily_explore .sbOptions { width:197px; }
+#think_sicily_2012 .thinkpuglia_explore .sbHolder { width:197px; margin-left:10px; }
+#think_sicily_2012 .thinkpuglia_explore .sbOptions { width:197px; }
+
+#think_sicily_2012 .main-content.normal_page { margin-left:40px; width:704px; padding-top:30px; }
+#think_sicily_2012 .main-content.normal_page h1 { float:none; }
+
+/* secure client area at top */
+#think_sicily_2012 .secure-client { float:left; margin-top:0; }
+#think_sicily_2012 .secure-client ul li.lock { background-color:transparent; }
+#think_sicily_2012 .secure-client ul li.lock a { color:#ddd; font-size:1.2em; font-family:Georgia, "Times New Roman", Times, serif; padding-left:0; }
+#think_sicily_2012 .secure ul li.login_name { margin-right:10px; background-color:transparent; }
+#think_sicily_2012 .secure ul li.login_name { color:#ddd; font-size:1.3em; padding-top:4px; }
+/*=============== end of extra css by James =================*/
+
+
+
+/*=================================================================*/
+/*=============== CSS Content Build - RB 05/12/12 =================*/
+/*=================================================================*/
+
+
+/* template amends */ 
+
+#think_sicily_2012 .wrapper { }
+#think_sicily_2012 .main-content.wide_page { margin-left:40px; width:100%; padding-top:30px; } 
+#think_sicily_2012 .main-content.wide_page.no_pad_top { padding-top: 0; }
+
+#think_sicily_2012 .content-split .content-left, #think_sicily_2012 .header-left { float: left; padding-right: 37px; width: 460px; }
+#think_sicily_2012 .content-split .content-right, #think_sicily_2012 .header-right { float: left;}
+
+#think_sicily_2012 .header-left { width: 510px; }
+#think_sicily_2012 .header-left h1{ float: none; display: block;  }
+#think_sicily_2012 .header-left .date-ref { font-size: 11px; font-family: Georgia; font-weight: bold; }
+#think_sicily_2012 .header-right { width: 410px; padding-top: 30px;  }
+#think_sicily_2012 .header-right p { color: #666666; font-family: arial;   font-size: 12px;  margin: 0; padding: 5px;}
+
+#think_sicily_2012 .normal_page .pane-left { float: left; width: 442px; margin-right: 40px;  }
+#think_sicily_2012 .normal_page .pane-right { float: left; width:222px;   }
+
+/* global modules */ 
+#think_sicily_2012 .bold { font-weight: bold; }
+#think_sicily_2012 .bullet-circle { background: #e9af00; width: 20px; height: 20px; border-radius: 50%; display: inline-block; color: #333; text-align: center; margin-right: 10px; font-family: arial; font-weight: bold;font-size: 12px; vertical-align: middle; }
+#think_sicily_2012 .box-type-standard ol { list-style-type: none;  list-style: none;}
+#think_sicily_2012 .i { background: url(../images/i.png) no-repeat; width: 16px; height: 16px; display: block; text-align: center; margin-left: 25px; margin-top: 7px; }
+#think_sicily_2012 .tick-big  { background: url(../images/tick-big.png) no-repeat; width: 37px; height: 46px; display: inline-block;  text-align: middle; margin-right: 10px;}
+#think_sicily_2012 h4 { font-family: 'MinionPro-Regular', 'Georgia'; font-size: 18px; line-height: 36px; color: #373737;   display: block; width: auto;  vertical-align: top; margin-bottom: 0px;}
+#think_sicily_2012 .blue { color: #11b8d8; }
+#think_sicily_2012 .green  { color: #8a9b21; }
+#think_sicily_2012 .torq { color: #5fc5cb; }
+#think_sicily_2012 .left{ float :left; }
+#think_sicily_2012 .aside .login-container { background: #646464; padding: 20px 0 40px 0; margin-top: 50px; }
+#think_sicily_2012 .aside .login-container form { width: 205px; padding: 0px 10px; margin-top: 18px; }
+
+
+/* about */
+#think_sicily_2012 .normal_page .pane-right {  margin-top: 55px; }
+#think_sicily_2012 .promo-img { margin-bottom: 20px;  } 
+#think_sicily_2012 #about .aside{ padding-right: 38px; padding-left: 0;}
+#think_sicily_2012 #about .sig { margin-left: -10px; margin-top: 40px; }
+
+/*=============== booking << =================*/
+#think_sicily_2012 table.summary-table { width: 943px; font-size: 1.3em; margin-bottom: 45px; margin-top: 30px; }
+#think_sicily_2012 table.summary-table caption { display: none; }
+#think_sicily_2012 table.summary-table tr:first-child th { font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; padding: 10px 15px; vertical-align: top; background: #f7f7f9; border: 1px solid white; text-align: center; line-height: 1.5em; height: 90px; }
+#think_sicily_2012 table.summary-table tr th:nth-child(7), 
+#think_sicily_2012 table.summary-table tr td:nth-child(7), 
+#think_sicily_2012 table.summary-table tr.total td:nth-child(3)  { background: #e9af00 !important; } 
+#think_sicily_2012 table.summary-table tr th:nth-child(9), 
+#think_sicily_2012 table.summary-table tr td:nth-child(9),
+#think_sicily_2012 table.summary-table tr.total td:nth-child(5)  { background: #c8cacb !important;} 
+#think_sicily_2012 table.summary-table tr:first-child th:nth-child(1) { width: 110px; } 
+#think_sicily_2012 table.summary-table tr:first-child th:nth-child(2) { width: 45px; } 
+#think_sicily_2012 table.summary-table tr:first-child th:nth-child(3) { width: 55px; } 
+#think_sicily_2012 table.summary-table tr:first-child th:nth-child(4) { width: 55px; } 
+#think_sicily_2012 table.summary-table tr:first-child th:nth-child(5) { width: 70px; } 
+#think_sicily_2012 table.summary-table tr:first-child th:nth-child(6) { width: 70px; } 
+#think_sicily_2012 table.summary-table tr:first-child th:nth-child(7) { width: 95px;} 
+#think_sicily_2012 table.summary-table tr:first-child th:nth-child(8) { width: 90px; } 
+#think_sicily_2012 table.summary-table tr:first-child th:nth-child(9) { width: 70px;  } 
+#think_sicily_2012 table.summary-table tr:first-child th span { display: block; padding-top: 5px; font-size: 11px; font-family: Arial; line-height: 1.3em; }
+#think_sicily_2012 table.summary-table td { text-align: center; padding: 5px 2px ; font-family: Arial; background: #fdf8e6; border-top: 3px solid white; border-bottom: 3px solid white; border-left: 1px solid white; border-right: 1px solid white; font-size: 12px;}
+#think_sicily_2012 table.summary-table td:nth-child(1), table.summary-table tr th:nth-child(1) { text-align: left; padding-left: 15px; }
+#think_sicily_2012 table.summary-table td:nth-child(9), table.summary-table tr.total td  { font-weight: bold; }
+#think_sicily_2012 table.summary-table td:nth-child(7) span { font-size: 11px; }
+#think_sicily_2012 table.summary-table tr.total  td { font-size: 12px; background: #e9e7e8; height: 30px;}
+#think_sicily_2012 table.summary-table tr.total  td span{ font-size: 12px;}
+#think_sicily_2012 table.summary-table tr.total  th { border-bottom: 2px solid white;background: #e9e7e8; height: 30px;  }
+#think_sicily_2012 table.summary-table tr.additionals th.blank  { background: transparent; }
+#think_sicily_2012 table.summary-table tr.additionals th, table.summary-table .additionals td  { background: #fdf8e6; border-left: 0px; font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; line-height: 1.5em; border-bottom: 2px solid white; height: 20px;  }
+#think_sicily_2012 table.summary-table tr.additionals .extras { padding-left: 10px; }
+#think_sicily_2012 table.summary-table tr.additionals span , table.summary-table td span, table.summary-table th span { font-size: 11px; font-family: Arial; line-height: 1.3em; }
+
+#think_sicily_2012 .box-balance-payment table td{ text-align: center; padding: 0px 2px;
+font-family: Arial; background: #FDF8E6; border-bottom: 3px solid white; font-size: 12px; height: 35px;  }
+#think_sicily_2012 .box-balance-payment table td:nth-child(1) { width: 40px;text-align: middle;   }
+#think_sicily_2012 .box-balance-payment table td:nth-child(2) { width: 320px; text-align: left; font-family: georgia;  text-align: left; }
+#think_sicily_2012 .box-balance-payment table td:nth-child(2) span { font-size: 11px; font-family: arial; }
+#think_sicily_2012 .box-balance-payment table td:nth-child(3) { width: 73px;  text-align: left; }
+#think_sicily_2012 .box-balance-payment table { margin-bottom: 20px; }
+#think_sicily_2012 .box-balance-payment table  tr.total td { background: #e9e8e8; } 
+#think_sicily_2012 .box-balance-payment .box-inner { padding: 0 0 10px 0;  }
+#think_sicily_2012 .box-balance-payment h3 { margin-bottom: 0; }
+
+#think_sicily_2012 .icon-deposit { background:url(../images/tick-sm.png) no-repeat; width: 27px; height: 27px; display: inline-block; }
+#think_sicily_2012 .icon-balance { background:url(../images/icon-balance.png) no-repeat; width: 31px; height: 28px; display: inline-block; }
+
+
+#think_sicily_2012 .box-inner { padding: 10px 10px 20px 10px; overflow: auto; width: 100%; }
+#think_sicily_2012 .box-inner .btn  { font-size: 14px;}
+#think_sicily_2012 .box-width-half{ width: 460px;}
+#think_sicily_2012 .box-width-full { width: 943px; }
+
+#think_sicily_2012 .box-type-standard ol, .box-type-standard ul { list-style-position: inside; }
+#think_sicily_2012 .box-type-standard li { font-family: Georgia, "Times New Roman", Times, serif; line-height: 1.5em; font-size: 1.3em; padding-bottom: 10px; padding-right: 20px;  }
+#think_sicily_2012 .box-type-standard, .box-type-process { background: #f7f7f9; }
+#think_sicily_2012 .box-type-standard h3, .box-type-process h3  { line-height: 1.5em; font-size: 1.3em;  border-radius: 5px 5px 0 0; padding: 5px 10px; font-family: arial; }
+#think_sicily_2012 .box-type-standard h3 span.bold { font-weight: bold; } 
+
+#think_sicily_2012 .box-type-process .box-inner.grid-container {padding: 0; margin: 0; background: white; }
+#think_sicily_2012 .box-type-process  h3 { background: #545456; color: white; font-weight: bold; }
+#think_sicily_2012 .box-type-process  h3 .notice {font-weight: normal;}
+#think_sicily_2012 .box-type-process .box-inner { font-size: 12px; font-family: arial; }
+#think_sicily_2012 .box-type-process .links span{ background: none; padding-right: 20px; font-size: 13px;} 
+#think_sicily_2012 .box-type-process .box-inner.grid-container {padding: 0; margin: 0; background: white; }
+
+#think_sicily_2012 .box-checklist { height: 255px; max-height: 255px; } 
+#think_sicily_2012 .box-checklist h3 { background: #c9cacc;  }
+#think_sicily_2012 .box-balance-payment { width: 445px;  }
+#think_sicily_2012 .box-balance-payment .box-inner div { float: left; margin-right: 0px; margin-left: 20px; }
+#think_sicily_2012 .box-contact-details { margin-top: 25px;  background: white; }
+#think_sicily_2012 .box-contact-details h3{ margin-bottom: 0; }
+
+/* booking - standard box dims */
+#think_sicily_2012 .grid-block { background-color: #f7f7f8; margin: 0 1px 1px 0; padding: 10px 15px; font-size: 12px; } 
+#think_sicily_2012 .grid-block.block-lead { width: 440px; height: 203px; float: left; }
+#think_sicily_2012 .col-2 { width: 233px; float: left; overflow: hidden; }
+#think_sicily_2012 .col-2 .grid-block.block-normal { width: auto; height: 35px;  }
+#think_sicily_2012 .col-2 .grid-block.block-double { width: auto; height: 91px;  }
+#think_sicily_2012 .col-3 { width: 239px; float: left; overflow: hidden;} 
+#think_sicily_2012 .col-3 .grid-block.block-normal { width: auto; height: 35px; margin-left: 0px; }
+#think_sicily_2012 .col-3 .grid-block.auto-height { height: auto;}
+
+
+#think_sicily_2012 .col-3 .grid-block.block-double { width: auto; height: 91px;  margin-left: 0px;  }
+#think_sicily_2012 .grid-block { line-height: 1.7em; color: #333333; }
+#think_sicily_2012 .grid-block.block-lead { font-size: 10px;}
+#think_sicily_2012 .grid-block.block-lead .hdr{  font-family: 'MinionPro-Regular', 'Georgia' ; font-size:30px; line-height:36px; color:#373737;  padding-top: 30px; display: block;}
+#think_sicily_2012 .grid-block .bold { display: block;}
+#think_sicily_2012 .grid-block.block-normal .links { float: right; }
+#think_sicily_2012 .grid-block.block-wide { width: 441px; display: block; float: left; }
+#think_sicily_2012 .grid-block.block-wide .bold { display: inline; }
+#think_sicily_2012 .box-trip-details .grid-block.block-lead { height: 468px;   }
+#think_sicily_2012 .box-trip-details .grid-block.block-lead span{ padding-top: 130px;   }
+ 
+#think_sicily_2012 .amend-passport {width: 943px; border-radius: 5px; font-size: 14px; font-family: Georgia; vertical-align: middle; margin: 20px 0;  position: relative; height: 110px; background: #e9b11f; }
+#think_sicily_2012 .amend-passport  img { position: absolute; width: 159px; height: 151px; z-index: 100; bottom: 1px; left: 35px; } 
+#think_sicily_2012 .amend-passport .links{ float: right; margin-top: 20px; margin-right: 35px; } 
+#think_sicily_2012 .amend-passport p { float: left; padding: 15px 15px 15px 240px; color: white; font-size: 22px;  }
+#think_sicily_2012 .amend-passport .bullet-circle  {line-height: 1.6em;}
+/* box promo */
+#think_sicily_2012 .promo { width: 943px; border-radius: 5px; font-size: 14px; font-family: Georgia; vertical-align: middle; margin: 20px 0 10px 0;  position: relative;  }
+#think_sicily_2012 .promo p { padding: 115px 15px 15px 100px; color: white;}
+#think_sicily_2012 .promo-red { background: transparent url(../images/promo-rouge.png) no-repeat; color: white; width: 943px; height: 168px; margin-top: -60px; }
+#think_sicily_2012 .promo-red a { color: white; text-decoration: underline; font-size: 13px; font-weight: bold; padding-left: 10px;}
+#think_sicily_2012 .promo-red img { position: absolute; width: 62px; height: 112px; z-index: 100; bottom: 1px; left: 15px; }
+#think_sicily_2012 .midwidth { width: 100%; background: transparent url(../images/promo-rouge-mid.png) no-repeat;}
+
+#think_sicily_2012 .line-break { border-bottom: 1px solid #545456; margin: 30px 0 70px 0; height: 1px; width: 943px; }
+
+#think_sicily_2012 .confirmed-arrangements { width: 943px; }
+#think_sicily_2012 .confirmed-arrangements ul li:nth-child(1) {padding-top: 0; }
+#think_sicily_2012 .confirmed-arrangements .grid-block  { float: left; padding-top: 20px; font-family: Arial; font-size: 13px; }
+#think_sicily_2012 .confirmed-arrangements .grid-block  a { color: #191919; text-decoration: underline; }
+#think_sicily_2012 .confirmed-arrangements ul li { padding: 20px 0; display: block; clear: both;	 }
+#think_sicily_2012 .confirmed-arrangements  .inventory-item { line-height: 1.5em; font-size: 12px;   padding: 5px 10px; font-family: arial; color: white; font-weight: bold; background: #545456; float :none; }
+#think_sicily_2012 .confirmed-arrangements .image-block { height: 250px; width: 129px; }
+#think_sicily_2012 .confirmed-arrangements .stay-block { height: 205px; width: 230px;  }
+#think_sicily_2012 .confirmed-arrangements .party-block { height: 205px; width: 190px;  }
+#think_sicily_2012 .confirmed-arrangements .expires-block { height: 205px; width: 160px;  }
+#think_sicily_2012 .confirmed-arrangements .price-block { height: 205px; width:79px; text-align: center; }
+#think_sicily_2012 .confirmed-arrangements .blank { height: 14px; width: 752px;  }
+#think_sicily_2012 .confirmed-arrangements .grid-block .hdr { font-family: Georgia; font-size: 15px;  display: block; padding-bottom: 20px;}
+#think_sicily_2012 .confirmed-arrangements .grid-block .bold  { display: inline; }
+#think_sicily_2012 .confirmed-arrangements .grid-block .text-lite { color: #717478; }
+#think_sicily_2012 .confirmed-arrangements .grid-block .lpad  { padding-left: 10px; }
+#think_sicily_2012 .confirmed-arrangements .grid-block .price { font-size: 18px; font-weight: bold; }
+#think_sicily_2012 .confirmed-arrangements .inventory-extras .image-block { height: 205px; }
+#think_sicily_2012 .confirmed-arrangements .inventory-extras  .details-block { width: 380px; height: 205px;}
+/*=============== >> booking =================*/
+
+
+
+/*=============== paying deposit =================*/
+
+#think_sicily_2012 #paying-deposit table.summary-table { margin-bottom: 20px; }
+ 
+#think_sicily_2012 #paying-deposit table.summary-table tr th:nth-child(7) { background: #F7F7F9  } 
+#think_sicily_2012 #paying-deposit table.summary-table tr td:nth-child(7) { background: #FDF8E6; } 
+#think_sicily_2012 #paying-deposit table.summary-table td:last-child {background: #C8CACB}
+
+#think_sicily_2012 .single-border { margin-top: 25px; margin-bottom:  0px; border-top: 1px solid black;  width: 943px; vertical-align: middle; padding: 10px 0 0 0; font-size: 13px;  position: relative; }
+#think_sicily_2012 .double-border { margin-top: 45px; margin-bottom: 20px; border-top: 1px solid black; border-bottom: 1px solid black; width: 943px; vertical-align: middle; padding: 5px 0; font-size: 11px; position: relative; }
+#think_sicily_2012 .double-border p { margin-bottom: 0;  }
+#think_sicily_2012 .double-border p a { font-size: 11px ;text-decoration: underline; color: #4D4D4D; padding-left: 15px; display: inline-block; }
+#think_sicily_2012 p.with-checkbox input{ margin-left: 10px; vertical-align: middle; }
+#think_sicily_2012 p.with-checkbox span{  vertical-align: middle; }
+#think_sicily_2012 #paying-deposit ul.pay-type li { width: 923px; background: #FDF8E6; font-size: 12px; padding: 5px 10px; vertical-align: middle; margin-bottom: 2px; }
+#think_sicily_2012 #paying-deposit ul.pay-type li input {margin-right: 20px; }
+#think_sicily_2012 #paying-deposit ul.pay-type li .pay-type-title { width: 300px; display: inline-block; }
+#think_sicily_2012 #paying-deposit ul.pay-type li  .pay-type-note { font-family: arial; display: inline-block;
+vertical-align: top; padding-top: 2px;}
+#think_sicily_2012 #paying-deposit .double-border.attach { margin-top: 0; }
+#think_sicily_2012 #paying-deposit .deposit { float: left; }
+#think_sicily_2012 #paying-deposit .amount { float :right; display: inline-block; margin-bottom: 0px; font-size: 22px; font-family: arial;}
+#think_sicily_2012 #paying-deposit .double-border .btn { position: absolute; right: 0; top: 0; }
+
+
+#think_sicily_2012 #booking-status { border-bottom: 1px solid black; text-align: center; margin-bottom: 40px; padding-left:  50px; }
+#think_sicily_2012 #booking-status li { float: left; width: auto; text-align: center; color: #e9af00; font-size: 13px; font-family: arial; padding: 10px 25px;  position: relative; margin: auto; font-size: 13px;   }
+#think_sicily_2012 #booking-status .booking-status-on { width: 12px; height: 12px; border-radius: 50%; display: inline-block; color: #333; text-align: center; background: #e9af00; position: absolute; top: 30px; left: 50%; }
+#think_sicily_2012 #booking-status .booking-status-off{ width: 10px; height: 10px; border-radius: 50%; display: inline-block; color: #333; text-align: center;  border: 1px solid #e9af00; position: absolute; top: 30px; margin: auto;  background: white; left: 50%; }
+
+#think_sicily_2012 #paying-deposit .header-left { width: 708px; padding-right: 15px;}
+#think_sicily_2012 #paying-deposit .header-right { width: 220px; }
+#think_sicily_2012 #paying-deposit .sage-pay { width: 200px; background: #eeeeee; padding: 10px; color: #191919; line-height: 1.1em; }
+#think_sicily_2012 #paying-deposit .sage-pay h5 { font-weight: normal; font-size: 12px; color: #191919;  margin: 10px 0 10px 0; font-family: arial; }
+#think_sicily_2012 #paying-deposit .sage-pay p {line-height: 1.3em; font-size: 11px; padding: 0;	}
+#think_sicily_2012 #paying-deposit .sage-pay img { padding-top: 10px; }
+
+#think_sicily_2012 .tab-box  { background: #e9e8e8; border-radius: 5px 5px 0 0; width: 943px; height: 30px; margin: 30px 0; font-family: arial; font-size: 12px; vertical-align: middle; position: relative; }
+#think_sicily_2012 .tab-box .bullet-circle { padding-top: 2px; }
+#think_sicily_2012 .tab-box .left { float :left; margin-top: 0; vertical-align: middle; padding-top: 5px; padding-left: 5px;}
+#think_sicily_2012 .tab-box .right { float :right; width: 220px; margin-top: 0; vertical-align: middle;}
+#think_sicily_2012 .tab-box .currency { background: #e9af00; color: white; text-align: center; font-size: 18px; display: inline-block; width: 30px; height: 25px; padding-top: 5px; margin: auto; vertical-align: middle;}
+#think_sicily_2012 .tab-box  * { display: inline-block; }
+#think_sicily_2012 .tab-box  .i {  padding: 0; margin: auto; vertical-align: middle; }
+#think_sicily_2012 .tab-box select { width: 150px; font-size: 11px; margin : 0 5px; } 
+
+
+/* check out */
+
+#think_sicily_2012 #checkout .tab-box .left { padding-top: 8px;} 
+#think_sicily_2012 #checkout ul.pay-type li { width: 923px; background: #FDF8E6; font-size: 12px; padding: 5px 10px; vertical-align: middle; margin-bottom: 2px; }
+#think_sicily_2012 #checkout ul.pay-type li input {margin-right: 20px; }
+#think_sicily_2012 #checkout ul.pay-type li .pay-type-title { width: 300px; display: inline-block; }
+#think_sicily_2012 #checkout ul.pay-type li  .pay-type-note { font-family: arial; }
+#think_sicily_2012 #checkout .double-border.attach { margin-top: 0; }
+#think_sicily_2012 #checkout .deposit { float: left; }
+#think_sicily_2012 #checkout .amount { float :right; display: inline-block; margin-bottom: 0px; font-size: 22px; font-family: arial;}
+#think_sicily_2012 #checkout .double-border .btn { position: absolute; right: 0; top: 0; }
+#think_sicily_2012 #checkout .header-left { width: 708px; padding-right: 15px;}
+#think_sicily_2012 #checkout .header-right { width: 220px; }
+#think_sicily_2012 #checkout .sage-pay { width: 200px; background: #eeeeee; padding: 10px; color: #191919; line-height: 1.1em; }
+#think_sicily_2012 #checkout .sage-pay h5 { font-weight: normal; font-size: 12px; color: #191919;  margin: 10px 0 10px 0; font-family: arial; }
+#think_sicily_2012 #checkout .sage-pay p {line-height: 1.3em; font-size: 11px; padding: 0;	}
+#think_sicily_2012 #checkout .sage-pay img { padding-top: 10px; }
+
+#think_sicily_2012 #checkout form { margin-top: 20px; }
+#think_sicily_2012 #checkout form label { display: block; color: #484848; font-size: 12px; display: block; font-family: arial; }
+#think_sicily_2012 #checkout form label span { font-weight: bold; }
+#think_sicily_2012 #checkout form input { border: 1px solid #d2d2d4; color: #5e5e5e; width: 260px; margin: 0 0 7px 0; padding: 2px 5px; outline: none;}
+#think_sicily_2012 #checkout form select {  border: 1px solid #d2d2d4;outline: none; }
+#think_sicily_2012 #checkout form input:focus {border: 1px solid #484848; outline: none;} 
+#think_sicily_2012 #checkout form input.title { width: 70px; }
+#think_sicily_2012 #checkout form input.first-name { width: 213px; }
+#think_sicily_2012 #checkout form input.state { width: 113px; margin-right: 10px; }
+#think_sicily_2012 #checkout form input.pcode{ width: 100px; }
+#think_sicily_2012 #checkout form input.middle-initial { width: 10px; }
+#think_sicily_2012 #checkout form select.country { width: 252px; }
+
+#think_sicily_2012 #checkout form .form-left { float: left; margin-right: 35px; }
+#think_sicily_2012 #checkout form .form-right { float: left;  }
+
+#think_sicily_2012 #checkout form .double-input input:nth-child(2) {display: block; margin-bottom: 2px;}
+#think_sicily_2012 #checkout form .double-input input:nth-child(3) {display: block; margin-bottom: 12px;}
+#think_sicily_2012 #checkout form .btn-save-details {  margin-top: 20px;  }
+
+#think_sicily_2012 #checkout .checkout-steps  {width: 312px; float :left; margin-right: 3px;}
+#think_sicily_2012 #checkout form .checkout-steps .ilabel { padding-top: 20px; }
+#think_sicily_2012 #checkout .checkout-steps .form-col{ background: #f7f7f9; padding: 0px 10px 0px 10px; height: 440px;}
+#think_sicily_2012 #checkout .checkout-steps  .first-name { display: inline-block; margin-right: 37px;  width: 110px; }  
+#think_sicily_2012 #checkout form .checkout-steps  .last-name { display: inline-block; width: 110px; }  
+#think_sicily_2012 #checkout form .checkout-steps  .last-name input { width: 110px; }
+#think_sicily_2012 #checkout .checkout-steps  .zip { display: inline-block; margin-right: 37px;  width: 80px; }  
+#think_sicily_2012 #checkout .checkout-steps  .zip input { width: 80px;} 
+#think_sicily_2012 #checkout form .checkout-steps  .state { display: inline-block; width: 150px; }
+#think_sicily_2012 #checkout form .checkout-steps  .state select  { width: 150px;  }  
+#think_sicily_2012 #checkout h3 { margin-bottom: 3px;}
+
+#think_sicily_2012 #checkout form .checkout-steps .credit-card select{ width: 270px; }
+#think_sicily_2012 #checkout form .checkout-steps  .exp-date { display: inline-block; width: 120px; margin-right: 40px; }  
+#think_sicily_2012 #checkout form .checkout-steps  .exp-year { display: inline-block; width: 110px; }  
+#think_sicily_2012 #checkout form .checkout-steps  .exp-date select{ width: 120px; }
+#think_sicily_2012 #checkout form .checkout-steps  .exp-year select { width: 110px; }
+#think_sicily_2012 #checkout form .checkout-steps .card-veri input{ width: 150px; }
+#think_sicily_2012 #checkout form .checkout-steps .card-veri a { font-size: 10px; font-family: arial; text-decoration: underline; color: #484848; margin-left: 10px; }
+
+#think_sicily_2012 #checkout form .checkout-steps .radiosage { padding-top: 30px; }
+#think_sicily_2012 #checkout form .checkout-steps .radiosage * { vertical-align: middle; }
+#think_sicily_2012 #checkout form .checkout-steps .radiosage input[type="radio"] { display: inline-block; width: 20px; margin-right: 10px; }
+#think_sicily_2012 #checkout form .checkout-steps .radiosage label { display: inline-block; }
+#think_sicily_2012 #checkout form .checkout-steps .radiosage img { margin-right: 10px;}
+#think_sicily_2012 #checkout .checkout-steps .form-col.alt-pad { padding: 0px; padding-top: 30px; height: 410px; }
+
+#think_sicily_2012 #checkout .checkout-steps .checkout-review * { font-family: Arial;
+font-size: 12px;}
+#think_sicily_2012 #checkout .checkout-steps .checkout-review td {background: white; padding: 7px 10px; border-bottom: 5px solid #F7F7F9;}
+#think_sicily_2012 #checkout .checkout-steps .checkout-review .tcol-1 { width: 152px; text-align: left; background: white; padding: 7px 10px; border-bottom: 5px solid #F7F7F9;}
+#think_sicily_2012 #checkout .checkout-steps .checkout-review .tcol-2{ width: 50px; text-align: center; background: white; padding: 7px 10px; border-bottom: 5px solid #F7F7F9;}
+#think_sicily_2012 #checkout .checkout-steps .checkout-review .tcol-3{ width: 50px; text-align: center; background: white; padding: 7px 10px; border-bottom: 5px solid #F7F7F9;}
+#think_sicily_2012 #checkout .checkout-steps .checkout-review th { font-weight: bold; }
+#think_sicily_2012 #checkout .checkout-steps .tcol-colspan { text-align: right; padding-right: 30px !important; }
+#think_sicily_2012 #checkout .checkout-steps .btn  { margin: 30px 0; float: right; }
+#think_sicily_2012 #checkout .checkout-steps .cards { margin: 0 20px; float: right;   }
+
+
+
+/* modal */
+ 
+#think_sicily_2012.modal  { background: none; font-size: 12px; font-family: arial; position: relative;}
+#think_sicily_2012.modal > div {  padding: 5px 0px 0 20px; border-radius: 5px; }
+#think_sicily_2012.modal h1 { float: none; font-size: 30px; }
+#think_sicily_2012.modal p, #think_sicily_2012.modal ol li{ font-size: 12px;  }
+#think_sicily_2012.modal ol { list-style-position: inside; font-family: Georgia; }
+#think_sicily_2012.modal ol li span {  font-family: Georgia; margin-bottom: 10px; display: block; }
+#think_sicily_2012.modal p { font-family: arial;  line-height: 1.4em; }
+#think_sicily_2012.modal #tc .modal-content {overflow: auto; height: 203px;  margin-bottom: 20px; padding-right: 20px; padding-top: 10px; width: 450px; }
+
+#think_sicily_2012 .tl, #think_sicily_2012 .tr { display: none; }
+
+.modal-foot { width: 470px; border-top: 1px solid black; position: absolute; overflow: visible; left: 0px; z-index: 100; padding:20px 0 0 20px; }
+.modal-foot .print { float: left; background: url(../images/print.png) no-repeat; width: 27px; height: 26px; display: block; text-indent: -1000px;  }
+.modal-foot .links { width: 100px; float: right; height: 25px; line-height: 25px; padding: 0px 10px; border-radius: 5px; margin-right: 15px; color: white;
+font-size: 1.4em; font-weight: bold; box-shadow: #42484A 0px 6px 8px; font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+.modal-foot .yellow-bg-color {background:#e9af00;}
+.modal-foot .links:hover { box-shadow: none; color:#cccccc; background-position:left top;}
+
+#think_sicily_2012 #request-brochure { background: url(../images/promo-req-brochure.png) no-repeat; width: 708px; height: 78px; margin-top: -20px; float: left; margin-left: 40px; z-index: 1000;  position:relative;}
+#think_sicily_2012 #request-brochure p { float :left; margin: 47px 0 0 150px; font-family: 'Georgia' ; font-size: 18px; color: #fff;}
+#think_sicily_2012 #request-brochure p span { color: #b7b7b7; }
+#think_sicily_2012 #request-brochure a { float :right; width: 222px; padding-right: 0px; margin-top: 40px;}
+#think_sicily_2012 #home .content_left { border-bottom: 0; }
+
+#think_sicily_2012.modal form { margin-top: 20px; }
+#think_sicily_2012.modal form label { display: block; color: #484848; font-size: 12px; display: block;}
+#think_sicily_2012.modal form label span { font-weight: bold; }
+#think_sicily_2012.modal form input { border: 1px solid #d2d2d4; color: #5e5e5e; width: 240px; margin: 0 0 7px 0; padding: 2px 5px; outline: none;}
+#think_sicily_2012.modal form select {  border: 1px solid #d2d2d4;outline: none; }
+#think_sicily_2012.modal form input:focus {border: 1px solid #484848; outline: none;} 
+#think_sicily_2012.modal form input.title { width: 70px; }
+#think_sicily_2012.modal form input.first-name { width: 213px; }
+#think_sicily_2012.modal form input.state { width: 113px; margin-right: 10px; }
+#think_sicily_2012.modal form input.pcode{ width: 100px; }
+#think_sicily_2012.modal form input.middle-initial { width: 10px; }
+#think_sicily_2012.modal form select.country { width: 252px; }
+#think_sicily_2012.modal form .label-left { display: inline-block; margin-right: 3px; }  
+#think_sicily_2012.modal form .label-right { display: inline-block; }  
+
+#think_sicily_2012.modal form .form-left { float: left; margin-right: 35px; }
+#think_sicily_2012.modal form .form-right { float: left;  }
+
+#think_sicily_2012.modal form .double-input input:nth-child(2) {display: block; margin-bottom: 2px;}
+#think_sicily_2012.modal form .double-input input:nth-child(3) {display: block; margin-bottom: 12px;}
+#think_sicily_2012.modal form .btn-save-details {  margin-top: 20px;  }
+
+#think_sicily_2012.modal #booking-edit-guest form .form-col { float :left; width: 220px; margin-right: 2px;}
+#think_sicily_2012.modal #booking-edit-guest form input { width: 198px; }
+#think_sicily_2012.modal #booking-edit-guest form select { width: 210px; }
+#think_sicily_2012.modal #booking-edit-guest form legend { font-weight: bold; margin-bottom: 20px; font-size: 13px; padding-left: 0; }
+#think_sicily_2012.modal #booking-edit-guest form fieldset:nth-child(3) legend{ margin-bottom: 12px;	 }
+#think_sicily_2012.modal #booking-edit-guest form select { margin-bottom: 10px; }
+#think_sicily_2012.modal #booking-edit-guest form select.day,
+#think_sicily_2012.modal #booking-edit-guest form select.month{ width: 60px; display: inline-block; }
+#think_sicily_2012.modal #booking-edit-guest form select.year{ width: 83px; display: inline-block;}
+#think_sicily_2012.modal #booking-edit-guest form .label-left { width: 110px; float: left;  }
+#think_sicily_2012.modal #booking-edit-guest form .label-right { width: 100px; float: left;  }
+#think_sicily_2012.modal #booking-edit-guest form .label-left input{ width: 90px;}
+#think_sicily_2012.modal #booking-edit-guest form .label-right input{ width: 85px;  }
+#think_sicily_2012.modal #booking-edit-guest form .btn-save-details a { font-size: 13px; float : right; }
+#think_sicily_2012.modal #booking-edit-guest .width-res { width: 420px;  font-size: 11px; color: #191919; font-family: Georgia; }
+#think_sicily_2012.modal #booking-edit-guest .btn-budge { margin-right: -20px; }
+
+
+/* guest info */
+#think_sicily_2012 #guest-info h1 { float:none;  }
+#think_sicily_2012 #guest-info .width-res { margin-bottom: 40px;  }
+#think_sicily_2012 table.guest-info { width: 943px; padding-bottom: 20px; border-bottom: 1px solid #545454; position: relative; overflow: visible; margin-top: 40px !important; }
+#think_sicily_2012 #guest-info .width-res { width: 600px;  font-size: 11px; color: #191919;}
+#think_sicily_2012   .passport-image{ display: block; text-indent: -10000px; background: url(../images/passport-table.png) no-repeat; width: 188px; height: 166px; position: absolute; right: 120px; top:  26px; margin: 0; }
+#think_sicily_2012 table.guest-info th{ background: #545456; color: white; margin-right: 1px; width: 25%;  font-family: Arial; font-weight: normal; padding: 5px 15px; vertical-align: top; text-align: left; line-height: 1.5em; font-size: 13px; font-weight: bold; border-right: 1px solid white; }
+#think_sicily_2012 table.guest-info th:nth-child(1) { border-radius: 5px 0 0 0; padding-left: 55px;}
+#think_sicily_2012 table.guest-info th:nth-child(4) { border-radius: 0 5px 0 0; }
+
+#think_sicily_2012 table.guest-info tr:nth-child(2) { border-top: 10px solid white; }
+#think_sicily_2012 table.guest-info td{ background: #f7f7f9; border-bottom: 1px solid white;, border-right: 1px solid white; width: 25%;  font-family: Arial; font-weight: normal; padding: 10px 15px; vertical-align: top; text-align: left; line-height: 1.5em; font-size: 12px; line-height: 2.0em; }
+#think_sicily_2012 table.guest-info td:nth-child(1) { background: #c9cacc; width: auto; text-align: center; padding: 10px 0 10px 10px; } 
+#think_sicily_2012 table.guest-info td span { font-weight: bold; }
+#think_sicily_2012 table.guest-info td .links { font-size: 13px; float : right; margin-bottom: 2px;}
+#think_sicily_2012 table.guest-info .divide  td{ padding: 0; width: 942px; background: white !important; }
+#think_sicily_2012 table.guest-info .divide span { display: block; height: 1px;  background: #545456; max-height: 1px; margin: 10px 0;}
+ 
+#think_sicily_2012 #prov-arr h3 { height: 30px; }
+#think_sicily_2012 #prov-arr h3 .btn  { font-size: 14px; float: right; }
+#think_sicily_2012 #prov-arr .box-type-process { margin-top: 30px; }
+#think_sicily_2012 #prov-arr .box-type-process h3 .title { margin: 5px 0 0px 5px; display: inline-block;}
+#think_sicily_2012 #prov-arr .box-item { float: left; padding: 10px; width: 324px; background: #f7f7f8; margin: 0 0px 15px 0; height: 100px; }
+#think_sicily_2012 #prov-arr .box-item.margin { margin: 0 15px 15px 0;}
+#think_sicily_2012 #prov-arr h1.margin { margin: 40px 0 10px 0;  }
+#think_sicily_2012 #prov-arr .box-item p { font-family: arial; }
+#think_sicily_2012 #prov-arr .box-item p span  { font-family: 'Georgia'; display: block;}
+#think_sicily_2012 #prov-arr .box-item img  { float: left; margin-right: 10px; }
+
+#think_sicily_2012 #prov-arr .history-item { background: #f7f7f8; margin: 0 0px 2px 0; padding: 10px 10px 0 10px;  }
+#think_sicily_2012 #prov-arr .history-item p { float: left;  }
+#think_sicily_2012 #prov-arr .history-item p span { display: block; font-size: 13px; }
+#think_sicily_2012 #prov-arr .history-item a { float :right; font-size: 12px; color: #4D4D4D; text-decoration: underline; }
+
+#think_sicily_2012 .aside .border-bottom { padding-bottom: 20px; border-bottom: 1px solid #979797; }
+
+#think_sicily_2012 .aside .divide { padding: 0 10px;  border-bottom: 1px solid #979797; height: 1px; background: #eeeeee;}
+ 
+#think_sicily_2012 .aside .profile-box { background: #eeeeee; padding: 10px; font-size: 11px; }
+#think_sicily_2012 .aside .profile-box p { font-size: 11px; }
+#think_sicily_2012 .aside .profile-box h2 {   color: #333333;font-size: 17px;  }
+#think_sicily_2012 .aside .profile-box img { display: block; }
+#think_sicily_2012 .aside .profile-box .profile-name { font-size: 15px; color: #333333; padding: 10px 0; display: block;  }
+#think_sicily_2012 .aside .profile-box a { color: #333; text-decoration: underline; }
+
+
+#think_sicily_2012 #confirm-your-booking .header-left { width: 708px; padding-right: 15px;}
+#think_sicily_2012 #confirm-your-booking .header-right { width: 220px; }
+#think_sicily_2012 #confirm-your-booking .sage-pay { width: 200px; background: #eeeeee; padding: 10px; color: #191919; line-height: 1.1em; }
+#think_sicily_2012 #confirm-your-booking .sage-pay h5 { font-weight: normal; font-size: 12px; color: #191919;  margin: 10px 0 10px 0; font-family: arial; }
+#think_sicily_2012 #confirm-your-booking .sage-pay p {line-height: 1.3em; font-size: 11px; padding: 0;	}
+#think_sicily_2012 #confirm-your-booking .sage-pay img { padding-top: 10px; }
+#think_sicily_2012 #confirm-your-booking  #stats { margin-top: 30px; }
+#think_sicily_2012 #confirm-your-booking #stats li { padding:  0; }
+#think_sicily_2012 #confirm-your-booking #stats .sleeps span{ background: url(../images/icon-sleep.png) no-repeat; width: 20px; height: 20px; padding-right: 10px; vertical-align: middle; display: inline-block; }
+#think_sicily_2012 #confirm-your-booking #stats .bedrooms span{ background: url(../images/icon-bed.png) no-repeat; width: 20px; height: 20px; padding-right: 10px; vertical-align: middle; display: inline-block;}
+#think_sicily_2012 #confirm-your-booking #stats .baths span{ background: url(../images/icon-bath.png) no-repeat; width: 20px; height: 20px; padding-right: 10px; vertical-align: middle; display: inline-block;}
+
+#think_sicily_2012 #confirm-your-booking .price-block { background: #c8cacb; }
+#think_sicily_2012 #confirm-your-booking .confirmed-arrangements .image-block { height: 235px;   }
+#think_sicily_2012 #confirm-your-booking .confirmed-arrangements .stay-block { height: 235px; width: 230px;  }
+#think_sicily_2012 #confirm-your-booking .confirmed-arrangements .party-block { height: 235px; width: 190px;  }
+#think_sicily_2012 #confirm-your-booking .confirmed-arrangements .expires-block { height: 235px; width: 160px;  }
+#think_sicily_2012 #confirm-your-booking .confirmed-arrangements .details-block { height: 235px;  }
+#think_sicily_2012 #confirm-your-booking .confirmed-arrangements .price-block { height: 235px; width:79px; text-align: center; }
+#think_sicily_2012 #confirm-your-booking .confirmed-arrangements .party-block span.box { background: white; border: 1px solid #d1d2d5; width: 19px; height: 19px;  display: inline-block;text-align: center; }
+#think_sicily_2012 #confirm-your-booking .confirmed-arrangements .price-block .custom-form-element { font-weight: bold; margin: 50px auto 0 auto; padding-left: 25px; }
+#think_sicily_2012 #confirm-your-booking .confirmed-arrangements .price-block .custom-form-element label { display: block; margin: auto; font-size: 11px; color: #333; margin-left: -20px; margin-top: 10px; }
+
+#think_sicily_2012 #confirm-your-booking  .tab-box .left { padding-top: 7px;}
+ 
+#login #think_sicily_2012 #login-container { left:50%; top:50%; margin-left:-290px; margin-top:-210px; position:absolute; top:50%; height:465px;  text-align: center;  margin-top:-210px; /* negative half of the height */}
+ 
+#login .master-box { position: relative; background: #f0f0f1; border-radius: 5px 0 5px 5px; padding: 30px 15px 15px 30px; width: 595px; height: 415px; margin: auto; z-index: 500000;  
+
+/* transparency via rgba so child elements are not affected */
+/* Fallback for web browsers that doesn't support RGBa */
+background: rgb(240, 240, 241);
+/* RGBa with 0.6 opacity */
+background: rgba(240, 240, 241, 0.95); 
+
+-moz-box-shadow:  5px 5px 17px -3px #666; -webkit-box-shadow:  5px 5px 17px -3px #666;  box-shadow: 5px 5px 17px -3px #666; 
+ } 
+
+#login .master-box * {opacity:1.0; filter:alpha(opacity=100); /* For IE8 and earlier */ }
+
+#login #think_sicily_2012 { background: none; }
+#login h1 { float: none;  }
+#login h2 { font-size: 20px; color: #373737; margin-bottom: 15px;  }
+#login form { float :left; width: 280px; margin-right: 30px; margin-top: 30px;  }
+#login form *{ color: #373737; }
+#login form label { margin-bottom: 2px; }
+#login form input{ color: #333; width: 270px; margin: 0 0 7px 0; padding: 2px 5px; outline: none; height: 25px; border: none; -moz-box-shadow: 1px 1px 4px 2px #dededf;
+  -webkit-box-shadow: 1px 1px 4px 2px #dededf; box-shadow: 1px 1px 7px 2px #dededf; }
+#login form input[type="password"] { width: 270px;margin: 0 0 7px 0; padding: 2px 5px; letter-spacing: 0.3em; font-size: 14px;  }
+#login form a.info-link { font-family: arial; text-decoration: underline;  }
+#login form .ilabel-checkbox { vertical-align: middle; font-size: 11px; margin: 10px 0; }
+#login form .ilabel-checkbox  * {  vertical-align: middle; margin: 0;}
+#login form .ilabel-checkbox input {  vertical-align: middle;  }
+#login form .ilabel-checkbox label { font-size: 11px; width: auto; display: inline-block; vertical-align: middle;  padding-top: 5px;}
+#login form  .btn { margin-top: 30px; }
+
+#login .sidebox { float: left; margin-top: 30px; background: #f8f9f9; border-radius: 5px; padding: 15px; width: 250px; height: 245px; font-family: arial; }
+#login .sidebox p{ font-size: 11px; text-align:left; }
+#login .sidebox img {margin: 5px 0 10px 0; }
+#login .sidebox img.logo-sage { padding-top: 20px; }
+
+#login .secure { width: 595px;  float :none; margin: auto; position: relative; }
+#login .secure ul { float :right; margin: -26px -23px 0 0; }
+#login .secure ul li { line-height: 18px; float: left; margin-right: 1px; background-color: transparent !important; }
+#login .secure ul li a { padding: 4px 14px;  padding-right: 35px; display: block;  border-radius: 5px 5px 0px 0px;}
+ 
+#login #secure-tab, #login #more-tab  {text-align:left; }
+#login #more-tab p{ width: 80%; font-size: 1.2em; text-align:left; }
+
+#login #more-tab ul { list-style: disc; list-style-position: inside; margin-bottom: 2px; width: 90%;}
+#login #more-tab ul li {font-size: 1.2em; margin-bottom: 10px; color: #4D4D4D; line-height: 20px; text-align:left;}
+
+#login .secure ul li.lock { }
+#login .secure ul li.lock a.active { background-color: #eceef1; color: #616161; background-image: url(../images/secure_client.png); background-repeat: no-repeat; background-position: right top;  }
+#login .secure ul li.lock a { background-color: #585858; color: white; background-image: url(../images/secure_client.png); background-repeat: no-repeat; background-position: right top; }
+#login  .secure ul li.more-info a { background-color: #585858; color: white;  }
+#login  .secure ul li.more-info a.active { background-color: #eceef1; color: #616161; }
+
+#think_sicily_2012 #personal-profile .grid-container { margin-top: 30px; }
+#think_sicily_2012 #personal-profile .grid-container .col-2 { width: 350px; }
+#think_sicily_2012 #personal-profile .grid-container .col-3 { width: 350px; }
+
+#think_sicily_2012 #personal-profile .grid-container .split-cell-left { display:table-cell; width: 175px; }
+#think_sicily_2012 #personal-profile .grid-container .split-cell-right { display:table-cell;  width: 175px; }
+#think_sicily_2012 #personal-profile .grid-container h5 { font-family: georgia; font-size: 16px; margin-top: 30px; }
+#think_sicily_2012 #personal-profile .grid-container .auto-height a { color: #333; text-decoration: underline; }
+
+#think_sicily_2012 #booking-conditions ol{ list-style: none; border-bottom: 1px solid #545454; padding: 20px 0; }
+#think_sicily_2012 #booking-conditions ol .left, 
+#think_sicily_2012 #booking-conditions ol .right {float: left; width: 50%; }
+#think_sicily_2012 #booking-conditions ol li a { font-size: 11px; color: #4D4D4D; text-decoration: underline;   }
+#think_sicily_2012 #booking-conditions ol li .bullet-circle { line-height: 1.6;}
+#think_sicily_2012 #booking-conditions ol li { margin: 5px 0; }
+#think_sicily_2012 #booking-conditions ol.content-list { border: none; }
+#think_sicily_2012 #booking-conditions ol.content-list li {  border-bottom: 1px solid #545454; padding: 20px 0; margin: 20px 0;}
+#think_sicily_2012 #booking-conditions ol.content-list li h2 { font-size: 19px;color: #4D4D4D;  }
+
+
+
+/* april 2013 new pages */
+
+#think_sicily_2012 .flushed-right { position: absolute; left: 200px;}
+
+.additions-feature { width: 219px; float: left; margin-bottom: 20px; margin-top: 40px; position: relative;}
+.additions-feature div { margin-top: 25px; border-top: 1px solid #545454; border-bottom: 1px solid #545454; padding: 10px 0 0 0;  }
+.additions-feature h2 { color: #17b8d7; font-size: 1.8em; padding:0 0 0px 0; height: 45px;}
+.additions-feature p { font-size: 13px; height: auto; }
+.additions-feature a.btn-additions { background: url(../images/april2013/additions-btn.png) no-repeat; width: 146px; height: 28px; display: block; color: white; margin-top: 10px;  }
+.additions-feature a.btn-additions:hover { background: url(../images/april2013/additions-btn-on.png) no-repeat;  width:146px; height:28px; display:block; text-decoration:none !important; }
+.additions-feature a.btn-additions span { font-size: 13px; font-weight: bold; padding-left: 10px; line-height: 22px; font-family: Arial; }
+.additions-feature.margin { margin-left: 22px; }
+.order-case .complete-info { border-bottom: 0; }
+.order-case .order-box { display: block; padding: 40px 0 0 0; overflow: auto; vertical-align: middle; width: 100%; }
+.order-case .order-box label { float :left; font-weight: bold;  color: black !important; font-family: arial; font-size: 11px;}
+.order-case .order-box input { float :left; width: 16px; height: 16px; margin-left: 5px;   border: 1px solid #d7d7d9; outline: none; padding: 2px 2px 2px 3px; text-align: center; margin-top: -5px;}
+.order-case .order-box select { float :left; width: 36px; height: 21px; margin-left: 5px; /* border: 1px solid #d7d7d9; outline: none; */  text-align: center; margin-top: -2px;}
+
+.order-case  .order-box a { float :left; margin-left: 5px; margin-top: -3px !important;}
+.order-case .complete-info { margin-top: 10px; min-height: 165px; overflow: hidden; /* expands to auto jquery */}
+.order-case > div > h2 { height: auto; margin-bottom: 0;}
+.order-case p {   }
+.order-case p.price { height: auto; }
+.order-case > div .price { font-family: arial; font-size: 12px; height: auto;}
+.order-case .read-more, .order-case .read-less { color: #17b8d7; text-decoration: underline; font-size: 12px; margin-top: 7px; display: inline-block; border-top: 1px solid #545454; width: 100%; padding-top: 7px; }
+.order-case > img { text-align: center; margin: auto; padding: auto; display: block;}
+.float-btn { float :left; margin-top: 180px;}
+.column-container { width: 219px; float :left;  }
+.column-container.margin { margin-left: 20px; }
+
+.additions-feature  .additional-info {margin-top: 0px; border: 0; padding:0; height: auto;
+background: white; z-index: 50000; padding-bottom: 70px; position: absolute; }
+
+.addition-container .additions-feature p { height: 105px; }
+.column-container .additions-feature  { position: relative; } 
+.column-container .additions-feature  .roll-product { height: 238px; width: 218px; text-align: center; margin: auto; overflow: hidden; display: block; position: relative;   }
+.column-container .additions-feature  .roll-product:hover  img{ margin-top: -238px; z-index: 4005; }
+.column-container .additions-feature  .roll-product span.recom { text-indent: -10000px; background: url(../images/april2013/recom.png) no-repeat; width: 111px; height: 109px; position: absolute; top: 60px; left: 3px; z-index: 4000; display: inline-block;}
+.column-container .additions-feature  .roll-product:hover span.recom { display: none; } 
+  
+.resticted-content-width { width: 464px; float: left;   }
+.resticted-content-width  p {font-size: 13px;  } 
+ 
+#think_sicily_2012 .exp-widget { background: none; }
+#think_sicily_2012 .exp-widget .guests { width: 347px !important; background: #f7f7f9; font-family: georgia; text-align: left; padding-left: 10px; height: 55px; font-size: 13px !important; }
+#think_sicily_2012 .exp-widget .guests select { width: 70px; margin-left: 20px; }
+#think_sicily_2012 .exp-widget .price { width: 142px !important; background: #e9af00; text-align: center !important; font-size: 13px !important; } 
+#think_sicily_2012 .exp-widget .price span { font-size: 13px !important;  }
+#think_sicily_2012 .exp-widget .double-border, #think_sicily_2012 .exp-widget .single-border { width: 100% !important; margin-left: 0 !important; font-size: 14px;font-family: georgia; padding: 15px 0; margin-top: 0; margin-bottom: 10px;} 
+#think_sicily_2012 .exp-widget .no-margin { margin: 0 0 0 2px !important; }
+#think_sicily_2012 .exp-widget .split p { width: 347px; display: inline-block; float :left; margin-top: 5px;}
+#think_sicily_2012 .exp-widget .split span { display: inline-block; float: left; text-align: right; width: 92px; font-size: 25px; font-family: arial;  }
+#think_sicily_2012 .min-height { height: 1px !important; padding: 0 !important;}
+#think_sicily_2012 .calltobook { font-size: 18px; font-family: georgia; padding: 0; }
+#think_sicily_2012  .additional-notes p { margin-top: 40px;  }  
+ 
+#think_sicily_2012  .promo-experiences { border-top: 1px solid #545454; margin-top: 90px; padding-top: 20px;  float :left; }
+#think_sicily_2012  .promo-experiences li { float: left; margin-right: 20px; } 
+#think_sicily_2012  .promo-experiences li:last-child { margin-right: 0; } 
+#think_sicily_2012  .promo-experiences li a { text-indent: -10000px; width: 219px; height: 220px; display: inline-block; box-shadow: 3px 8px 10px #ccc;  }
+#think_sicily_2012  .promo-experiences .promo-one { background: url(../images/april2013/promo-exp-1.jpg) no-repeat; }
+#think_sicily_2012  .promo-experiences .promo-two { background: url(../images/april2013/promo-exp-2.jpg) no-repeat;}
+#think_sicily_2012  .promo-experiences .promo-three { background: url(../images/april2013/promo-exp-3.jpg) no-repeat; }
+
+#think_sicily_2012 .exp-widget table { margin-bottom: 40px; }
+#think_sicily_2012 .exp-widget table tr td { text-align: left; padding-left: 10px; font-family: georgia; font-size: 14px; background: #f7f7f9;}
+#think_sicily_2012 .exp-widget table tr td.with-ul { text-align: left; padding-left: 10px; font-family: georgia; font-size: 14px; background: #FDF8E6;}
+
+#think_sicily_2012 .exp-widget #paying-deposit { margin-left: 0; }	
+#think_sicily_2012 .exp-widget #paying-deposit ul li { width: 100%; text-align: left; margin-bottom: 0px; border-bottom: 3px solid white; padding: 5px 10px 5px 0; font-size: 12px; }
+#think_sicily_2012 .exp-widget #paying-deposit ul li:last-child {border-bottom: 0;}
+#think_sicily_2012 .exp-widget #paying-deposit ul li .pay-type-title { width: 379px; }
+#think_sicily_2012 .exp-widget  .select-villa { margin-left: 20px; display: inline-block; } 
+#think_sicily_2012 .exp-widget .total-amount { margin-left: 0 !important; }
+#think_sicily_2012 .exp-widget .total-amount p { font-size: 18px; font-family: georgia;}
+#think_sicily_2012 .exp-widget .no-margin {margin-right: -5px !important;}
+#think_sicily_2012 .exp-widget .box-inner { overflow: visible; }
+
+#think_sicily_2012 .yellow-btn-short { display: block; padding: 3px 20px 15px 20px;
+height: 24px; line-height: 24px; text-align: left; font-size: 1.4em; font-weight: bold; color: #ffffff; font-family: Arial, Helvetica, sans-serif; background: url(../images/april2013/yellow-btn-short.png) left bottom no-repeat; width: 140px; margin: -3px 0 0 -12px;} 
+#think_sicily_2012 .yellow-btn-short:hover { background-position:left top; }
+
+#think_sicily_2012 .peach-btn { display: block; padding: 1px 20px 15px 35px;
+height: 20px; line-height: 24px; text-align: left; font-size: 1.3em; font-weight: bold; color: #ffffff; font-family: Arial, Helvetica, sans-serif; background: url(../images/april2013/peach-btn.png) left top no-repeat; width: 145px; margin: 0 0 0 -8px;} 
+#think_sicily_2012 .peach-btn:hover { background-position:left -44px; }
+
+#think_sicily_2012 .forest-btn { display: block; padding: 1px 20px 15px 35px;
+height: 20px; line-height: 24px; text-align: left; font-size: 1.3em; font-weight: bold; color: #ffffff; font-family: Arial, Helvetica, sans-serif; background: url(../images/april2013/forest-btn.png) left top no-repeat; width: 145px; margin: 0 0 0 -8px;} 
+#think_sicily_2012 .forest-btn:hover { background-position:left -44px; }
+
+#think_sicily_2012 .mauve-btn { display: block; padding: 1px 20px 15px 35px;
+height: 20px; line-height: 24px; text-align: left; font-size: 1.3em; font-weight: bold; color: #ffffff; font-family: Arial, Helvetica, sans-serif; background: url(../images/april2013/mauve-btn.png) left top no-repeat; width: 145px; margin: 0 0 0 -8px;} 
+#think_sicily_2012 .mauve-btn:hover { background-position:left -44px; }
+
+#think_sicily_2012 .algae-dark-btn { display: block; padding: 1px 20px 15px 55px;
+height: 20px; line-height: 24px; text-align: left; font-size: 1.3em; font-weight: bold; color: #ffffff; font-family: Arial, Helvetica, sans-serif; background: url(../images/april2013/algae-dark-btn.png) left top no-repeat; width: 145px; margin: 0 0 0 -8px;} 
+#think_sicily_2012 .algae-dark-btn:hover { background-position:left -44px; } 
+
+#think_sicily_2012 .mauve-long-btn { display: block; padding: 1px 20px 15px 55px;
+height: 20px; line-height: 24px; text-align: left; font-size: 1.3em; font-weight: bold; color: #ffffff; font-family: Arial, Helvetica, sans-serif; background: url(../images/april2013/mauve-long-btn.png) left top no-repeat; width: 145px; margin: 0 0 0 -8px;} 
+#think_sicily_2012 .mauve-long-btn:hover { background-position:left -44px; } 
+
+#think_sicily_2012 .plant-green-btn { display: block; padding: 1px 20px 15px 55px;
+height: 20px; line-height: 24px; text-align: left; font-size: 1.3em; font-weight: bold; color: #ffffff; font-family: Arial, Helvetica, sans-serif; background: url(../images/april2013/plant-green-btn.png) left top no-repeat; width: 145px; margin: 0 0 0 -8px;} 
+#think_sicily_2012 .plant-green-btn:hover { background-position:left -44px; } 
+
+#think_sicily_2012 .nu-gray-btn { display: block; padding: 1px 20px 15px 55px;
+height: 20px; line-height: 24px; text-align: left; font-size: 1.3em; font-weight: bold; color: #ffffff; font-family: Arial, Helvetica, sans-serif; background: url(../images/april2013/nu-gray-btn.png) left top no-repeat; width: 145px; margin: 0 0 0 -8px;} 
+#think_sicily_2012 .nu-gray-btn:hover { background-position:left -44px; } 
+
+#think_sicily_2012 .algae-btn { display: block; padding: 1px 20px 15px 55px;
+height: 20px; line-height: 24px; text-align: left; font-size: 1.3em; font-weight: bold; color: #ffffff; font-family: Arial, Helvetica, sans-serif; background: url(../images/april2013/algae-btn.png) left top no-repeat; width: 145px; margin: 0 0 0 -8px;} 
+#think_sicily_2012 .algae-btn:hover { background-position:left -44px; } 
+
+
+#think_sicily_2012  .gallery-caption { margin-bottom: 30px; display: block; text-align :right; position: relative; height: 10px;}
+#think_sicily_2012  .gallery-caption a { color: #e9b11f; text-decoration: none; display: block; position: absolute; top: -23px; right: 0; }
+#think_sicily_2012  .gallery-caption a:hover {text-decoration: underline; }
+
+.feature-3-layout .feature-left { float: left; width: 315px; margin-bottom: 20px; }
+.feature-3-layout .feature-center { float: left; width: 252px; text-align: center; padding: 0 30px; }
+.feature-3-layout .feature-right { float: left; width: 315px; margin-bottom: 20px; }
+.feature-3-layout h1 { margin: 0 !important; font-size: 2.7em !important; margin-bottom: 10px !important;}
+.feature-3-layout h1 .highlight-sicily { color: #11b8d8; }
+.feature-3-layout h1 .highlight-puglia { color: #92a323; }
+.feature-3-layout h1 .highlight-ionian { color: #5fc5cb; }
+
+  
+#landing-sicily .feature-left { background: url(../images/april2013/sicily-shop-1.png) left top no-repeat; -moz-box-shadow:5px 5px 10px #ccc; -webkit-box-shadow:5px 5px 10px #ccc;  box-shadow: 5px 5px 10px #ccc; height: 282px; width: 309px; position: relative; }
+#landing-sicily .feature-right { background: url(../images/april2013/sicily-shop-2.png) left top no-repeat; -moz-box-shadow:5px 5px 10px #ccc; -webkit-box-shadow:5px 5px 10px #ccc;  box-shadow: 5px 5px 10px #ccc; height: 282px; width: 309px; position: relative;}
+#landing-sicily .feature-big { background: url(../images/april2013/sicily-shop-3.png) left top no-repeat; -moz-box-shadow:5px 5px 10px #ccc; -webkit-box-shadow:5px 5px 10px #ccc;  box-shadow: 5px 5px 10px #ccc; height: 230px; width: 943px; position: relative;}
+
+#landing-puglia .feature-left { background: url(../images/april2013/puglia-shop-1.png) left top no-repeat; -moz-box-shadow:5px 5px 10px #ccc; -webkit-box-shadow:5px 5px 10px #ccc;  box-shadow: 5px 5px 10px #ccc; height: 282px; width: 309px; position: relative; }
+#landing-puglia .feature-right { background: url(../images/april2013/sicily-shop-2.png) left top no-repeat; -moz-box-shadow:5px 5px 10px #ccc; -webkit-box-shadow:5px 5px 10px #ccc;  box-shadow: 5px 5px 10px #ccc; height: 282px; width: 309px; position: relative;}
+#landing-puglia .feature-big { background: url(../images/april2013/puglia-shop-3.png) left top no-repeat; -moz-box-shadow:5px 5px 10px #ccc; -webkit-box-shadow:5px 5px 10px #ccc;  box-shadow: 5px 5px 10px #ccc; height: 230px; width: 943px; position: relative;}
+ 
+#landing-ionian .feature-left { background: url(../images/april2013/ionian-shop-1.png) left top no-repeat; -moz-box-shadow:5px 5px 10px #ccc; -webkit-box-shadow:5px 5px 10px #ccc;  box-shadow: 5px 5px 10px #ccc; height: 282px; width: 309px; position: relative; }
+#landing-ionian .feature-right { background: url(../images/april2013/ionian-shop-2.png) left top no-repeat; -moz-box-shadow:5px 5px 10px #ccc; -webkit-box-shadow:5px 5px 10px #ccc;  box-shadow: 5px 5px 10px #ccc; height: 282px; width: 309px; position: relative;}
+
+
+.feature-3-layout .feature-left a, .feature-3-layout .feature-right a { position: absolute; bottom: 10px; left: 55px; }
+.feature-3-layout .feature-big a{ position: absolute; bottom: 10px; left: 370px; }
+
+
+.main-content .shop-buttons { padding-bottom: 20px; overflow: auto; width: 715px; margin-top: 40px;}
+.main-content .shop-buttons  > div { float: left; display: block; margin-left: 20px; width: 221px; height: 282px; text-align: center; position: relative;}
+.main-content .shop-buttons div:first-child { margin-left: 0px; }
+.main-content .shop-buttons > div { -moz-box-shadow:5px 5px 10px #ccc; -webkit-box-shadow:5px 5px 10px #ccc;  box-shadow: 5px 5px 10px #ccc; }
+/*.main-content .shop-buttons a img:hover { -moz-box-shadow: none; -webkit-box-shadow: none;  box-shadow: none; } */
+.main-content .shop-buttons > div > a { position: absolute; bottom: 10px;left: 20px;  }
+.main-content .shop-buttons .white-wine { background: url(../images/april2013/shop-white-wines.png) left top no-repeat; }
+.main-content .shop-buttons .rose-wine { background: url(../images/april2013/shop-rose-wines.png) left top no-repeat; }
+#think_sicily_2012  .main-content .shop-buttons .rose-wine a { padding-left: 45px; width: 135px; }
+.main-content .shop-buttons .red-wine { background: url(../images/april2013/shop-red-wines.png) left top no-repeat; }
+#think_sicily_2012 .main-content .shop-buttons div h4 { color: white; font-size: 2.5em; text-align: center; margin: auto; margin-top: 115px; line-height: 33px;}
+#think_sicily_2012 .main-content .shop-buttons div h4 span { width: 30px; display: inline-block; height: 6px; border-top: 1px solid white; margin: 0 5px;} 
+
+.main-content  .search-bar{ border-top: 1px solid #545456; text-align: right; }
+.main-content  .search-bar a { font-size: 12px; font-family: arial; padding:  10px; color:#4d4d4d; display: inline-block; }
+.main-content  .search-bar a:hover { text-decoration: underline; }
+
+
+
+.aside .testimonials { padding-bottom: 141px; }
+.aside .testimonials p { font-size: 11px; padding-top: 10px;}
+.aside .testimonials p.quote-aside { font-size: 1.9em; color: #9f9f9f; line-height: 1.2;  }
+
+.payment-widget-aside h3{ position: static !important; }
+.aside .payment-widget-aside  table { width: 100%; }
+.aside .payment-widget-aside  table tr td { padding: 10px 0; font-family: arial; font-size: 12px; border-bottom: 2px solid #a2a2a2 ;}
+.aside .payment-widget-aside  table tr td.product{ width: 75%; } 
+.aside .payment-widget-aside  table tr td.price{ width: 25%; text-align: center; } 
+
+.aside .payment-widget-aside  table tr.total { margin-top: 10px; font-size: 18px; }
+.aside .payment-widget-aside  table tr.total td{ border: none; background: #dfdfdf; font-family: georgia; font-size: 18px;   }
+.aside .payment-widget-aside  table tr.total td.product { padding: 15px 10px;  }
+.aside .payment-widget-aside  table tr.total td.price { font-family: arial;}
+.aside .payment-widget-aside a { margin: 20px 0; }
+
+.boat-banner { float: left;font-family: 'Georgia'; font-size: 18px; color: #fff; background: url(../images/april2013/boat-banner.png) left bottom no-repeat; width: 714px; height: 107px; margin-top: 460px;}
+.boat-banner p { margin: 65px 0 0 163px; font-size: 17px; color: white;  }
+.boat-banner p a { color: white !important; }
+
+
+#shop-widget .grid-block { line-height: 2.7em; min-height: 200px !important; height: auto !important;  }
+#shop-widget .grid-block:first-child { min-height: auto !important;  }
+#shop-widget .pricep-block { width: 80px; }
+
+#shop-widget .price-total-block { text-align: center; }
+
+.terms p { padding:5px 0; font-size: 14px;  }
+.readterms { font-size: 11px; color: #4d4d4d; }
+.readterms  p { float: left; font-size: 11px; }
+.readterms .btn { margin-right: 70px; }
