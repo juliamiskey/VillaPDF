@@ -90,18 +90,25 @@
     font-weight: 400;
 }
 
-#print-layout .header-stats {
-    /* position: relative;
-    background-color: transparent !important;
-    width: 100%;
-    float: none;
-    bottom: 15px; */
+#print-layout .header-stats img {
+ height: 20px;
 }
 
-#print-layout .header-stats .side-box {
-    /* padding: 0 !important;
-    background-color: transparent;
-    float: right; */
+#print-layout .header-stats {
+ font-size: 12px;
+ font-weight: bold;
+}
+
+#print-layout .about-villa {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color: #162e6f;
+ margin-bottom: 10px;
+}
+
+#print-layout .about-villa h2 {
+ margin-bottom: 0;
 }
 
 #print-layout .main-right * {

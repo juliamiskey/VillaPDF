@@ -1,66 +1,67 @@
-
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
-	Pdf
-</title>
-    <script type="text/javascript" src="/assets/js/jquery-1.7.min.js" ></script>
-    <link rel="stylesheet" type="text/css" href="css/reset.css?v=19.1" /><link rel="stylesheet" type="text/css" href="css/style.css?v=19.1" /><link rel="stylesheet" type="text/css" href="css/print.css?v=19.1" /></head>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>The Thinking Traveller | Villa PDF</title>
+    <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css?v=19.1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=19.1" />
+    <link rel="stylesheet" type="text/css" href="css/print.css?v=19.1" />
+</head>
+
 <body id="print-mode">
-    <form method="post" action="./PrintPropertyPDF.aspx?id=4&amp;p=5&amp;langid=1&amp;dummy=1234" id="form1">
-<div class="aspNetHidden">
+    <form method="post" action="./PrintPropertyPDF.aspx?id=722&amp;p=1&amp;langid=1&amp;footer=0&amp;dummy=1234"
+        id="form1">
+        <div class="aspNetHidden" </div>
 
-</div>
-
-<div class="aspNetHidden">
-
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90D093B9" />
-</div>
-    <div id="think_sicily_2012">
-        <div id="print-layout" class="print-sicily">
-            <div class="header">
-                <h1>
-                    <img src="img/tttlogo.png?v=19.1" id="imgLogo" style="width:200px;" />
-
-
-                </h1>
+            <div class="aspNetHidden">
+                <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90D093B9" />
             </div>
 
-            <div style="min-height: 860px" id="contentContainer">
-                <div class="print-content">
-                    <div class="main">
-                        <h2>
-                            <a href="https://www.thethinkingtraveller.com/thinkionianislands/epipleon.aspx"
-                                id="propertyLink">Epipleon</a>
-                            <br />
-                            <span class="header-region">GREEK ISLANDS</span>
-                            </br>
-                            <span class="header-sub-region">Tsoukalades, Lefkada</span>
-                        </h2>
-            
+            <!-- Note: not sure why we have this ID, but I cannot remove/change it without doing the same in the css -->
+            <div id="think_sicily_2012">
+
+                <div id="print-layout" class="print-sicily">
+                    <!-- TTT LOGO PAGE HEADER -->
+                    <div class="header">
+                        <h1>
+                            <img src="img/tttlogo.png?v=19.1" id="imgLogo" style="width:200px;"
+                                alt="The Thinking Traveller" />
+                        </h1>
                     </div>
-                    <div class="main-right header-stats">
-                        <div class="side-box">
-                            <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
-                                <tr class="stats">
-                                    <td width="25" class="sleeps"> <img src="/mg/guests.png" alt=""> </td>
-                                    <td class="table-icon-text">
-                                        Sleeps&nbsp;6
-                                    </td>
-                                    <td width="25" class="sleeps"> <img src="img/bedrooms.png" alt=""> </td>
-                                    <td class="table-icon-text">
-                                        Bedrooms&nbsp;3
-                                    </td>
-                                    <td width="25" class="sleeps"> <img src="img/bathrooms.png" alt="">
-                                    </td>
-                                    <td class="table-icon-text">Bathrooms&nbsp;3</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
+
+                    <div style="min-height: 860px" id="contentContainer">
+                        <div class="print-content">
+
+                            <!-- VILLA MAIN TITLE - REPEATED ON EACH PAGE -->
+                            <div class="main villa-header">
+                                <div>
+                                    <h2>
+                                        <a href="https://www.thethinkingtraveller.com/thinkionianislands/epipleon.aspx"
+                                            id="propertyLink">Epipleon</a>
+                                        <br />
+                                        <span class="header-region greek-islands">GREEK ISLANDS</span>
+                                        </br>
+                                        <span class="header-sub-region">Tsoukalades, Lefkada</span>
+                                    </h2>
+                                </div>
+
+                                <div class="badges">
+                                    <!-- NEW FOR 2020 LOGO - IF NEW FOR 2020 -->
+                                    <div v-if="getCard.label === 'New for 2020'">
+                                        <img class="new-badge" src="./img/New-2020-villa-badge.svg" alt="New for 2020"
+                                            height="70" />
+                                    </div>
+
+                                    <!-- THINK EXQUISITE LOGO - IF TE VILLA -->
+                                    <div v-if="villa.thinkExquisiteVilla">
+                                        <img src="./img/think-logo-gold.png" class="exquisite-logo"
+                                            alt="Think Exquisite Logo" height="70" />
+                                    </div>
+                                </div>
+                            </div>
                 <br style="clear: both; height: 0px;" />
                 <div class="print-content">
             
